@@ -1,0 +1,1 @@
+alert("Menghello, ini JS eksternal!");
