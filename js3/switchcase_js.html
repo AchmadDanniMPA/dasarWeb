@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Percabangan switch/case</title>
+    </head>
+    <body>
+        <script>
+            var jawab=prompt("Selamat Cuy! beliau menang! masukkan angka 1-5!");
+            var hadiah="";
+            switch(jawab){
+                case"1":hadiah="Tisu";break;
+                case"2":hadiah="Kopi";break;
+                case"3":hadiah="Sticker";break;
+                case"4":hadiah="Minyak";break;
+                case"5":hadiah="Uang";break;
+                default:document.write("<p>Mengsalah Kawan :(</p>");
+            }
+            if(hadiah===""){
+                document.write("<p>Menggagal dapat hadiah</p>");
+            }else{
+                document.write("<h2>Mengmenang "+hadiah+"</h2>");
+            }
+        </script>
+    </body>
+</html>
