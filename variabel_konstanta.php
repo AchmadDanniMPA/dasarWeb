@@ -1,0 +1,12 @@
+<?php
+$angka1 = 10;
+$angka2 = 5;
+$hasil = $angka1 + $angka2;
+echo "Hasil jumlah $angka1, $angka2 = $hasil.<br>";
+$benar = true;
+$salah = false;
+echo "Var benar: $benar, Var salah: $salah.<br>";
+define("NAMA_SITUS","WebsiteKu.com");
+define("TAHUN_PENDIRIAN", 2023);
+echo "Selamay day datang di ". NAMA_SITUS .", situs yang didirikan pada tahun ". TAHUN_PENDIRIAN .".<br>";
+?>
